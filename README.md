@@ -74,6 +74,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | `list_folders`, `create_folder`, `move_file`, `rename_folder`, `delete_folder` | Private folders — links never change when you move files *(Pro)* |
 | `update_tags` / `list_tags` | Tag files and folders *(adding tags: Pro)* |
 | `send_feedback` | Report a bug or suggest a feature to the AIToURL team, straight from your AI |
+| `send_feedback` | Report a bug or suggest a feature to the AIToURL team, straight from your AI |
 
 ## Example prompts
 
