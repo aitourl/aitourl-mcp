@@ -106,6 +106,10 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 </tr>
 </table>
 
+**Your dashboard: files, search, type filters, folders and tags**
+
+<img src="assets/screenshots/dashboard.png" alt="AIToURL dashboard" width="800">
+
 ---
 
 Made in France by Anthony Perinot · https://aitourl.com
