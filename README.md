@@ -83,11 +83,16 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | | Free | Pro |
 |---|---|---|
 | MCP access | ✅ | ✅ |
-| Files | 100 | More |
-| Max file size | 25 MB | Larger |
-| Delivery | Download page | Viewed on aitourl.com |
-| Folders, tags, replace file | — | ✅ |
-| Price | 0 € | 5 €/month or 49 €/year *(coming soon)* |
+| Files | 100 | 1,000 |
+| Max file size | 25 MB | 250 MB |
+| Links | Short AIToURL page before each download | Direct links (work in automation tools) |
+| File retention | 90 days after the last download | Never expire while you're Pro |
+| Replace a file, keep its link | — | ✅ |
+| Folders and tags | — | ✅ |
+| AIToURL branding on PDFs | Yes | No |
+| Price | 0 € | 5 €/month or 49 €/year (VAT incl.) |
+
+Upgrade from your dashboard: https://aitourl.com/dashboard/billing
 
 ## Security & privacy
 
