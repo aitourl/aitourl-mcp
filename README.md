@@ -64,7 +64,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | `create_upload_link` / `check_upload` | One-time upload address for larger files |
 | `upload_file` | Direct upload for small files (base64) |
 | `list_files` / `get_file` | List your files, with size, date, downloads and public link (on Pro the link serves the file directly) |
-| `read_file` | Returns a small text file (≤ 100 KB) or image (≤ 2 MB) into the conversation, for AI apps that can't download *(Pro)* |
+| `read_file` | Returns a file's raw content into the conversation (text ≤ 100 KB, images and other files ≤ 2 MB), for AI apps that can't download *(Pro)* |
 | `search_files` | Typo-tolerant search by name, folder, tag and file type |
 | `replace_file` | Update a file's content while keeping the same link *(Pro)* |
 | `rename_file` | Rename a file; existing links keep working |
@@ -91,7 +91,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | File retention | 90 days after the last download | Never expire while you're Pro |
 | Replace a file, keep its link | — | ✅ |
 | Folders and tags | — | ✅ |
-| Read small files back into the conversation (`read_file`) | — | ✅ |
+| Read files back into the conversation (`read_file`) | — | ✅ |
 | AIToURL branding on PDFs | Yes | No |
 | Price | 0 € | 5 €/month or 49 €/year (VAT incl.) |
 
