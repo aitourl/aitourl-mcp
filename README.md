@@ -66,6 +66,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | `list_files` / `get_file` | List your files, with size, date and downloads |
 | `search_files` | Typo-tolerant search by name, folder, tag and file type |
 | `replace_file` | Update a file's content while keeping the same link *(Pro)* |
+| `rename_file` | Rename a file; existing links keep working |
 | `delete_file` | Delete a file; its link stops working |
 | `list_folders`, `create_folder`, `move_file`, `rename_folder`, `delete_folder` | Private folders — links never change when you move files *(Pro)* |
 | `update_tags` / `list_tags` | Tag files and folders *(adding tags: Pro)* |
