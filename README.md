@@ -95,7 +95,16 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 
 ## Screenshots
 
-<!-- Add: conversation with the link, download page, dashboard -->
+**Your AI publishes the file and replies with a link**
+
+<img src="assets/screenshots/landing.png" alt="AIToURL: your AI makes the file, you get the link" width="800">
+
+<table>
+<tr>
+<td width="50%" valign="top"><b>What people see when they open the link</b><br><br><img src="assets/screenshots/download-page-mobile.png" alt="AIToURL download page on mobile" width="300"></td>
+<td width="50%" valign="top"><b>A PDF made with <code>publish_document</code></b> (<a href="https://aitourl.com/f/cFr3To3WssMCrwhyl6vOkG/launch-checklist.pdf">open it</a>)<br><br><img src="assets/screenshots/publish-document-example.png" alt="Example PDF generated from Markdown" width="360"></td>
+</tr>
+</table>
 
 ---
 
