@@ -63,7 +63,8 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | `import_from_url` | Fetches a file from a URL and hosts it |
 | `create_upload_link` / `check_upload` | One-time upload address for larger files |
 | `upload_file` | Direct upload for small files (base64) |
-| `list_files` / `get_file` | List your files, with size, date and downloads |
+| `list_files` / `get_file` | List your files, with size, date and downloads. `get_file` also returns a short-lived direct `download_url` so your AI can fetch the file itself |
+| `read_file` | Returns a small text file (≤ 100 KB) or image (≤ 2 MB) into the conversation, for AI apps that can't download *(Pro)* |
 | `search_files` | Typo-tolerant search by name, folder, tag and file type |
 | `replace_file` | Update a file's content while keeping the same link *(Pro)* |
 | `rename_file` | Rename a file; existing links keep working |
@@ -77,6 +78,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 - "Turn this table into a CSV, publish it and send me the URL."
 - "List the files I published this week and how many times each was downloaded."
 - "Move all my invoices into the folder Clients/Dupont."
+- "Find my logo in the Brand folder and use it in the Dupont proposal."
 
 ## Plans
 
@@ -89,6 +91,7 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | File retention | 90 days after the last download | Never expire while you're Pro |
 | Replace a file, keep its link | — | ✅ |
 | Folders and tags | — | ✅ |
+| Read files back into the conversation (`read_file`) | — | ✅ |
 | AIToURL branding on PDFs | Yes | No |
 | Price | 0 € | 5 €/month or 49 €/year (VAT incl.) |
 
