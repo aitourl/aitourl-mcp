@@ -38,7 +38,9 @@ claude mcp add --transport http aitourl https://aitourl.com/mcp
 ```
 
 ### Cursor
-In `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):
+[![Add AIToURL to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=aitourl&config=eyJ1cmwiOiJodHRwczovL2FpdG91cmwuY29tL21jcCJ9)
+
+Or by hand, in `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):
 ```json
 {
   "mcpServers": {
