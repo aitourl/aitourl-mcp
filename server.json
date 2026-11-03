@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.aitourl/aitourl",
+  "title": "AIToURL",
+  "description": "Your AI makes the file, you get a public link. Host PDFs, images and files from any MCP client.",
+  "websiteUrl": "https://aitourl.com",
+  "repository": {
+    "url": "https://github.com/aitourl/aitourl-mcp",
+    "source": "github",
+    "id": "1444241285"
+  },
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/aitourl/aitourl-mcp/main/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aitourl.com/mcp"
+    }
+  ]
+}

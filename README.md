@@ -8,6 +8,7 @@
 - 🔌 MCP server URL: `https://aitourl.com/mcp`
 - 🔐 Auth: OAuth 2.1 (sign in with Google or GitHub, no API key to copy)
 - 🆓 Free plan includes MCP access
+- 📇 Official MCP Registry name: `com.aitourl/aitourl`
 
 > This repository is the public presentation of AIToURL (docs, setup, screenshots). The service itself is hosted at aitourl.com.
 
