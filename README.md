@@ -78,7 +78,10 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | `delete_file` | Delete a file; its link stops working |
 | `list_folders`, `create_folder`, `move_file`, `rename_folder`, `delete_folder` | Private folders — links never change when you move files *(Pro)* |
 | `update_tags` / `list_tags` | Tag files and folders *(adding tags: Pro)* |
-| `send_feedback` | Report a bug or suggest a feature to the AIToURL team, straight from your AI |
+| `update_link_settings` | Password, e-mail capture, expiry date or download limit on a link *(Pro)* |
+| `get_stats` | Downloads per day, sources, countries and devices for a file *(Pro)* |
+| `list_leads` | E-mails collected on e-mail-gated links *(Pro)* |
+| `share_folder` | Public page listing a folder's files and subfolders *(Pro)* |
 | `send_feedback` | Report a bug or suggest a feature to the AIToURL team, straight from your AI |
 
 ## Example prompts
@@ -88,6 +91,9 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 - "List the files I published this week and how many times each was downloaded."
 - "Move all my invoices into the folder Clients/Dupont."
 - "Find my logo in the Brand folder and use it in the Dupont proposal."
+- "Publish my lead magnet as a PDF and ask for an e-mail before the download."
+- "How many people downloaded my guide this week, and from where?"
+- "Share my Free resources folder and give me the public link."
 
 ## Plans
 
@@ -101,6 +107,10 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | Replace a file, keep its link | — | ✅ |
 | Folders and tags | — | ✅ |
 | Read files back into the conversation (`read_file`) | — | ✅ |
+| E-mail capture before download (lead magnets), CSV export | — | ✅ |
+| Download stats (per day, source, country, device) | — | ✅ |
+| Password, expiry date, download limit | — | ✅ |
+| Share a folder as a public page | — | ✅ |
 | AIToURL branding on PDFs | Yes | No |
 | Price | 0 € | 5 €/month or 49 €/year (VAT incl.) |
 
