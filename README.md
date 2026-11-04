@@ -10,6 +10,11 @@
 - 🆓 Free plan includes MCP access
 - 📇 Official MCP Registry name: `com.aitourl/aitourl`
 
+<p align="center">
+  <a href="assets/demo/aitourl-demo.mp4"><img src="assets/demo/aitourl-demo.gif" alt="Demo: ask Claude for a checklist PDF, AIToURL publishes it and Claude returns a public link that opens anywhere" width="800"></a>
+  <br><sub>The whole flow in 27 seconds: ask, publish, share the link. (<a href="assets/demo/aitourl-demo.mp4">MP4 version</a>)</sub>
+</p>
+
 > This repository is the public presentation of AIToURL (docs, setup, screenshots). The service itself is hosted at aitourl.com.
 
 ---
