@@ -100,7 +100,8 @@ Any client that supports remote MCP servers with OAuth works — point it at `ht
 | | Free | Pro |
 |---|---|---|
 | MCP access | ✅ | ✅ |
-| Files | 100 | 1,000 |
+| Files | 100 | Unlimited |
+| Storage | — | 50 GB |
 | Max file size | 25 MB | 250 MB |
 | Links | Short AIToURL page before each download | Direct links (work in automation tools) |
 | File retention | 90 days after the last download | Never expire while you're Pro |
